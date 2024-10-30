@@ -5,6 +5,8 @@ export { default as DataSelect } from './Components/DataSelect';
 export { default as DebounceSelect } from './Components/DebounceSelect';
 export { default as DragTel } from './Components/DragTel';
 export { default as Error } from './Components/Error';
+export { default as Store } from './Components/HandStore';
+export { default as observe } from './Components/HandStore/observe';
 export { default as Http } from './Components/Http';
 export { HttpConcurrency as HttpConcurrency } from './Components/HttpConcurrency';
 export { default as InputNumber } from './Components/InputNumber';
