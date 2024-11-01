@@ -73,32 +73,30 @@ const DebounceSelect: React.FC<IAppProps> = (props) => {
         page: 1,
         size: 10,
       },
-    })
-      .then((newOptions: any) => {
-        console.log(newOptions);
-        const newOption: any = filiter(newOptions.data);
-        setOptions(newOption);
-      })
-      .catch((err) => {
-        axios
-          .post('/api', {
-            msgtype: 'text',
-            text: {
-              content: `报错信息：${err}\n报错接口：${'http://47.97.251.117:3000/h_patient'}\n报错参数：${JSON.stringify(
-                {
-                  doctor: '贾梦源',
-                  page: 1,
-                  size: 10,
-                },
-              )}`,
-              mentioned_list: Date.now(),
-              mentioned_mobile_list: ['13800001111', '@all'],
-            },
-          })
-          .then((res) => {
-            console.log(res);
-          });
-      });
+    }).then((newOptions: any) => {
+      console.log(newOptions);
+      const newOption: any = filiter(newOptions.data);
+      setOptions(newOption);
+    });
+    // .catch((err) => {
+    // axios
+    //   .post('/api', {
+    //     msgtype: 'text',
+    //     text: {
+    //       content: `报错信息：${err}\n报错接口：${'http://47.97.251.117:3000/h_patient'}\n报错组件：${JSON.stringify(
+    //         {
+    //           Component: 'DebounceSelect',
+    //           adress: window.location.href,
+    //         },
+    //       )}`,
+    //       mentioned_list: Date.now(),
+    //       mentioned_mobile_list: ['13800001111', '@all'],
+    //     },
+    //   })
+    //   .then((res) => {
+    //     console.log(res);
+    //   });
+    // });
   }, []);
   return (
     <Select
