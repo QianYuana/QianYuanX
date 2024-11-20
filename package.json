@@ -23,7 +23,7 @@
     "lint:es": "eslint \"{src,test}/**/*.{js,jsx,ts,tsx}\"",
     "prepare": "husky install && dumi setup",
     "prepublishOnly": "father doctor && npm run build",
-    "start": "node ./public/addVersion.js && npm run dev & sleep 3 && open http://localhost:8000",
+    "start": " npm run dev & sleep 3 && open http://localhost:8000",
     "versionset": "node ./public/addVersion.js"
   },
   "commitlint": {

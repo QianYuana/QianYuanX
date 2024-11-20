@@ -45,7 +45,7 @@ const App: React.FC = () => {
 export default App;
 ```
 
-### 在表单中的用法
+### Decimal 控制为整数或者支持小数
 
 ```tsx
 import * as React from 'react';
@@ -56,17 +56,10 @@ const App: React.FC = () => {
   return (
     <Form>
       <Form.Item label="排序号" name="sort">
-        <InputNumber
+        <InputNumber.Decimal
           placeholder="请输入排序号"
           style={{ width: '180px' }}
-          onChanges={(val) => {
-            if (val < 0) {
-              message.destroy();
-              message.error('排序号必须大于0');
-              return Promise.reject();
-            }
-            return Promise.resolve(val);
-          }}
+          errMsg={'排序号为整数'}
         />
       </Form.Item>
     </Form>
@@ -85,6 +78,18 @@ export default App;
 | onChanges    | 输入框的值变化时触发的回调函数       | (value: number) => void | -      |
 | placeholder  | 输入框的占位符                       | string                  | ''     |
 | disabled     | 禁用                                 | boolean                 | false  |
+
+### InputNumber.Decimal API
+
+| 参数        | 说明                                 | 类型                    | 默认值 |
+| :---------- | :----------------------------------- | :---------------------- | :----- |
+| errMsg      | 输入框的值变化时触发的回调函数       | string                  | -      |
+| style       | 输入框的样式                         | CSSStyle                | -      |
+| value       | 输入框的值                           | number                  | ''     |
+| onChange    | 输入框的值变化时触发的(表单)回调函数 | (value: number) => void | -      |
+| placeholder | 输入框的占位符                       | string                  | ''     |
+| disabled    | 禁用                                 | boolean                 | false  |
+| isParent    | 控制是否支持小数                     | boolean                 | false  |
 
 ## 注意事项
 

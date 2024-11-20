@@ -7,6 +7,7 @@ export * as DataSource from './Components/DataSource';
 export { default as DebounceSelect } from './Components/DebounceSelect';
 export { default as DragTel } from './Components/DragTel';
 export { default as Error } from './Components/Error';
+export { default as HandPromise } from './Components/HandPromise';
 export { default as Store } from './Components/HandStore';
 export { default as observe } from './Components/HandStore/observe';
 export { default as Http } from './Components/Http';
