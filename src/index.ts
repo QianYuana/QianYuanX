@@ -30,3 +30,4 @@ export { default as KeyInput } from './Components/keyInput';
 //HOOKS
 export { default as useFocus } from './Hooks/useFocus';
 export { default as useKey } from './Hooks/useKey';
+export { useStateHand as useStateHand } from './Hooks/useStateHand';

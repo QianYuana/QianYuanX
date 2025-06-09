@@ -29,6 +29,8 @@ nav:
 1. [create-React-app](https://create-react-app.dev/)
 2. [vite](https://vitejs.cn/)
 3. [umi](https://umijs.org/)
+4. [father](https://github.com/umijs/father)
+5. [webpack](https://webpack.docschina.org/)
 
 ## 模版框架
 
@@ -54,3 +56,36 @@ nav:
    - 阿里开源的表格组件
    - 主要解决的是数据量大时的问题
    - 无法进行筛选排序（本人已经进行二次开发支持了）
+3. [relation-graph](https://www.relation-graph.com/#/demo/react?id=node)
+   - 关系图组件
+   - 支持 Vue2、Vue3、React 的关系数据展示组件
+4. [wangEditor5](https://www.wangeditor.com/v5/)
+   - 富文本编辑器
+5. [条形码生成器](https://www.gseen.com/online_tools/QRcode/barcode)
+   - 条形码生成器
+6. [json 转义](https://www.json.cn/)
+   - json 转义
+7. [Lodash](https://www.lodashjs.com/)
+   - 工具库
+   - 函数式编程
+8. [moment](https://momentjs.com/)
+   - 时间处理库
+   - 格式化时间
+9. [echarts](https://echarts.apache.org/zh/index.html)
+   - 图表库
+   - 支持 vue、react、angular、小程序、canvas、nodejs 等
+10. [ramda](https://ramdajs.com/)
+    - 函数式编程库
+11. [图片转义 base64](https://www.sojson.com/image2base64.html)
+    - 图片转义 base64
+12. [JSDoc](https://jsdoc.bootcss.com/)
+    - 文档注释
+    - 生成文档
+13. [CSS in JS](https://cssinjs.org/react-jss?v=v10.6.0)
+    - CSS in JS
+14. [Mockjs](https://mockjs.com/)
+    - 模拟数据
+15. [react-activation](https://github.com/CJY0208/react-activation)
+    - 缓存管理（个人认为目前最好用的缓存管理插件）
+16. [relation-graph](https://www.relation-graph.com/#/index)
+    - 关系图组件

@@ -94,7 +94,7 @@ const App: React.FC = () => {
       title: '操作',
       dataIndex: 'name',
       key: 'name',
-      width: 60,
+      width: 200,
       align: 'center',
       render: (text, record) => {
         return (
@@ -102,13 +102,12 @@ const App: React.FC = () => {
             style={{
               display: 'flex',
               justifyContent: 'space-around',
-              flexDirection: 'column',
             }}
           >
             <a href="javaScript:;" style={{ color: 'red' }}>
               删除
             </a>
-            <a href="javaScript:;" style={{ color: 'green', margin: '10px 0' }}>
+            <a href="javaScript:;" style={{ color: 'green' }}>
               启用
             </a>
             <a href="javaScript:;" style={{ color: 'red' }}>
@@ -214,7 +213,7 @@ const App: React.FC = () => {
       title: '操作',
       dataIndex: 'name',
       key: 'name',
-      width: 60,
+      width: 200,
       align: 'center',
       render: (text, record) => {
         return (
@@ -222,13 +221,12 @@ const App: React.FC = () => {
             style={{
               display: 'flex',
               justifyContent: 'space-around',
-              flexDirection: 'column',
             }}
           >
             <a href="javaScript:;" style={{ color: 'red' }}>
               删除
             </a>
-            <a href="javaScript:;" style={{ color: 'green', margin: '10px 0' }}>
+            <a href="javaScript:;" style={{ color: 'green' }}>
               启用
             </a>
             <a href="javaScript:;" style={{ color: 'red' }}>

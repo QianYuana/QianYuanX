@@ -110,7 +110,7 @@ const RelationGraphs: React.FunctionComponent = (props) => {
     await graphRef.current.setJsonData(staticJsonData, (graphInstance) => {});
   };
   const options: RGOptions = {
-    debug: true,
+    debug: false,
     defaultLineShape: 1,
     layout: {
       layoutName: 'center',

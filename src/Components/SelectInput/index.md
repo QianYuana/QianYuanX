@@ -103,13 +103,12 @@ const App: React.FC = () => {
             style={{
               display: 'flex',
               justifyContent: 'space-around',
-              flexDirection: 'column',
             }}
           >
             <a href="javaScript:;" style={{ color: 'red' }}>
               删除
             </a>
-            <a href="javaScript:;" style={{ color: 'green', margin: '10px 0' }}>
+            <a href="javaScript:;" style={{ color: 'green' }}>
               启用
             </a>
             <a href="javaScript:;" style={{ color: 'red' }}>
@@ -229,13 +228,12 @@ const App: React.FC = () => {
             style={{
               display: 'flex',
               justifyContent: 'space-around',
-              flexDirection: 'column',
             }}
           >
             <a href="javaScript:;" style={{ color: 'red' }}>
               删除
             </a>
-            <a href="javaScript:;" style={{ color: 'green', margin: '10px 0' }}>
+            <a href="javaScript:;" style={{ color: 'green' }}>
               启用
             </a>
             <a href="javaScript:;" style={{ color: 'red' }}>
