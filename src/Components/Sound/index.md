@@ -18,8 +18,6 @@ nav:
 
 ### 基础用法
 
-<details>
-
 ```jsx
 import { Sound } from 'qianyuanx';
 import { Form } from 'antd';
@@ -81,8 +79,6 @@ export default () => {
   }
 }
 ```
-
-</details>
 
 ## API
 

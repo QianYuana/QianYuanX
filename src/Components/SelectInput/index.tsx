@@ -163,16 +163,18 @@ const App: React.FunctionComponent<IAppProps> = (props) => {
         mode="multiple"
         showArrow={false}
         placeholder="请点击右侧图标进行选择"
-        suffixIcon={
-          <AppstoreOutlined
-            style={{
-              fontSize: size === 'large' ? 16 : size === 'small' ? 12 : 14,
-            }}
-            onClick={() => {
-              setIsModalOpen(true);
-            }}
-          />
-        }
+        // suffixIcon={
+        //   <div style={{ display: 'flex', alignItems: 'center' }}>
+        //     <AppstoreOutlined
+        //       style={{
+        //         fontSize: size === 'large' ? 16 : size === 'small' ? 12 : 14,
+        //       }}
+        //       onClick={() => {
+        //         setIsModalOpen(true);
+        //       }}
+        //     />
+        //   </div>
+        // }
         value={selectVal}
         options={options}
         style={{ width: '100%' }}
@@ -190,7 +192,7 @@ const App: React.FunctionComponent<IAppProps> = (props) => {
           marginRight: 12,
           zIndex: 99,
           position: 'absolute',
-          top: 0,
+          top: `calc(50% - 8px)`,
           right: 0,
         }}
       />
